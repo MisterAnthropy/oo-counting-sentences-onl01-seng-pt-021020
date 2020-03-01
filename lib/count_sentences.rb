@@ -9,9 +9,7 @@ class String
   end
 
   def question?
-    if self.end_with?("?")
-      return true
-    else
+    if self.end_with?(".")
       return false 
     end
 
